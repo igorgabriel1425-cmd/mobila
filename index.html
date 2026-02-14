@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MOBILA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+button {
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>MOBILA 🥷👑</h1>
+<p>Seu mobilador</p>
+
+<button onclick="entrar()">ENTRAR</button>
+
+<script>
+function entrar() {
+  var senha = prompt("Digite a senha:");
+  
+  if (senha === "MOBILA") {
+    window.location.href = "https://ff.garena.com/";
+  } else {
+    alert("Senha errada!");
+  }
+}
+</script>
+
+</body>
+</html>
